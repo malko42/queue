@@ -10,6 +10,7 @@ class Queue {
     this.createdChannel = null;
   }
   create (opts) {
+    if (typeof opts === 'string') opts = { qname: opts }
     const { qname } = opts;
     return this.exists(qname)
     .then( exists => {

@@ -1,6 +1,6 @@
 {
   "name": "queue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper around RSMQ, simplify working queue creation, management etc",
   "main": "index.js",
   "scripts": {
