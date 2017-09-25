@@ -1,0 +1,30 @@
+{
+  "name": "queue",
+  "version": "0.1.0",
+  "description": "Wrapper around RSMQ, simplify working queue creation, management etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malko42/queue.git"
+  },
+  "keywords": [
+    "rsmq",
+    "queue",
+    "redis"
+  ],
+  "engines": {
+    "node": ">= 6.4.0"
+  },
+  "author": "Maxime Daffis <malkovitch+github@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malko42/queue/issues"
+  },
+  "homepage": "https://github.com/malko42/queue#readme",
+  "dependencies": {
+    "rsmq": "^0.8.2"
+  }
+}
